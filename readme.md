@@ -38,7 +38,6 @@ That will build `src/style.css` to `fake-content-block/style.css`. It will look 
 
 ## Strongly Suggested Plugins
 
-
 [Query Monitor](https://wordpress.org/plugins/query-monitor/) - This will allow you to debug errors in your devtools. To show log data, use `do_action( 'qm/debug', $variable_here );`. [Documentation](https://querymonitor.com/docs/logging-variables/)
 
 

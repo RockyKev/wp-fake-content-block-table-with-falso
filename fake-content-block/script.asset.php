@@ -1,6 +1,7 @@
 <?php 
 
 // https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/#wpdefinedasset
+// TODO: have the version generate based on the timestamp of the script.js file
 
 return array(
     'handle' => 'fake-content-block-js-asset',
@@ -9,5 +10,5 @@ return array(
         'wp-element',
         'wp-i18n',
     ),
-    'version'      => '3be55b05081a63d8f9d0ecb466c42cfd',
+    'version'      => uniqid(),
 );

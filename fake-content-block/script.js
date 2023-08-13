@@ -1,5 +1,3 @@
-console.log("here i go!");
-
 function generateTable(payload, tbody) {
   const tableData = payload
     .map((key) => {

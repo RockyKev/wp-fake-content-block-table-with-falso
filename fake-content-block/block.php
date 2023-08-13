@@ -19,7 +19,7 @@
     <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
         <div class="overflow-hidden">
-          <table id="fake-content-table" class="min-w-full text-left text-sm font-light">
+          <table id="fake-content-table" class="min-w-full text-left text-sm font-light table-auto">
             <thead class="border-b font-medium bg-sky-400">
               <tr>
                 <th scope="col" class="px-6 py-4">Avatar</th>
