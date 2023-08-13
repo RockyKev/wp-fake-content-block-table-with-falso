@@ -1,0 +1,46 @@
+[
+    {
+        "company_id": "100_bb",
+        "fullname": "Olga Novotný",
+        "role": "Global Research Engineer",
+        "location": "Georgia",
+        "timezone": "Europe/Moscow",
+        "startdate": "Sat Aug 15 2020 11:24:00 GMT-0700 (Pacific Daylight Time)",
+        "department": "",
+        "team": "",
+        "subordinates": "",
+        "payroll": {
+            "payroll_id": ""
+        },
+        "chat": {
+            "chat_id": 1000,
+            "alias": "",
+            "chatname": "",
+            "dm_uri": "",
+            "avatar": "https://i.pravatar.cc/100"
+        },
+        "email": "olganovotný@test.com"
+    },
+    {
+        "company_id": "101_bb",
+        "fullname": "Somnuek Simiyu",
+        "role": "Global Communications Architect",
+        "location": "Texas",
+        "timezone": "Africa/Harare",
+        "startdate": "Fri Aug 28 2020 22:22:47 GMT-0700 (Pacific Daylight Time)",
+        "department": "",
+        "team": "",
+        "subordinates": "",
+        "payroll": {
+            "payroll_id": ""
+        },
+        "chat": {
+            "chat_id": 1001,
+            "alias": "",
+            "chatname": "",
+            "dm_uri": "",
+            "avatar": "https://i.pravatar.cc/100"
+        },
+        "email": "somnueksimiyu@test.com"
+    }
+]
