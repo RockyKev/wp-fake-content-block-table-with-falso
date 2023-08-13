@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node fake-data/run-script.js"
   },
   "author": "RK",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@ngneat/falso": "^7.0.1"
+  }
 }
