@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "version": "1.0.0",
+    "name": "acf/fake-content-block",
+    "title": "Fake Content Block",
+    "description": "A fake content block.",
+    "style": [ "file:./src/style.css" ],
+    "viewScript": "file:./src/script.js",    
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["fake", "placeholder"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "src/block.php"
+    }
+}
