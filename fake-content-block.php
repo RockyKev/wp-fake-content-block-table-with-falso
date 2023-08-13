@@ -13,7 +13,7 @@ Version: 1.0
 
 
 function acf_blocks_json_register_blocks() {
-    register_block_type(dirname(__FILE__) . '/block.json');
+    register_block_type(dirname(__FILE__) . '/src/block.json');
 }
 
 add_action('init', 'acf_blocks_json_register_blocks');

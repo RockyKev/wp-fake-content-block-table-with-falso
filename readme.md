@@ -27,6 +27,14 @@ Inside `src/script.js`, you'll see a function called `getFakeData()`, which simu
 ![](/readme-image-2.png)
 
 
+## Style development
+
+1. Edit your styles in `src/style.css`
+
+2. In the command line: `npm run style` 
+
+That will build `src/style.css` to `fake-content-block/style.css`. It will look for any tailwind classes and compile them.
+
 
 ## Strongly Suggested Plugins
 

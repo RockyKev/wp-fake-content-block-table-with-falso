@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-
   "scripts": {
-    "generate": "node fake-data/run-script.js"
+    "generate": "node fake-data/run-script.js",
+    "style": "tailwindcss -i ./src/style.css -o ./fake-content-block/style.css"
   },
   "author": "RK",
   "license": "ISC",
   "dependencies": {
-    "@ngneat/falso": "^7.0.1"
+    "@ngneat/falso": "^7.0.1",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
   }
 }
