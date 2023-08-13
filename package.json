@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "generate": "node fake-data/run-script.js",
+    "generate": "node fake-data/run-script.js 100",
     "style": "tailwindcss -i ./src/style.css -o ./fake-content-block/style.css"
   },
   "author": "RK",

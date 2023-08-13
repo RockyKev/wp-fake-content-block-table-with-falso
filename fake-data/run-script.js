@@ -9,6 +9,7 @@ import {
   randSlug,
   randBetweenDate,
   randJobType,
+  randPronoun,
 } from "@ngneat/falso";
 import fs from "fs";
 
@@ -17,10 +18,12 @@ const filterTextToLower = (text) => {
   return text.replace(/\s/g, "").toLowerCase();
 };
 
+const args = process.argv;
+
 // generate payload
 
 let fullPayload = [];
-let totalUsersToCreate = 4;
+let totalUsersToCreate = (args[2]) ? args[2] : 5; // take generator number else default to 5
 
 const companyIDFactory = incrementalNumber({ from: 100, step: 1 });
 const chatIDFactory = incrementalNumber({ from: 1000, step: 1 });
@@ -28,7 +31,7 @@ const chatIDFactory = incrementalNumber({ from: 1000, step: 1 });
 while (totalUsersToCreate) {
   let user = {
     company_id: `${companyIDFactory()}_bb`,
-    fullname: randFullName(),
+    fullname: randFullName({ withAccents: false}),
     role: randJobTitle(),
     location: randState(),
     timezone: randTimeZone(),
@@ -41,10 +44,11 @@ while (totalUsersToCreate) {
     },
     chat: {
       chat_id: chatIDFactory(),
+      pronoun: randPronoun(),
       alias: "",
       chatname: "",
       dm_uri: randUrl() + "/" + randSlug(),
-      avatar: randAvatar(50),
+      avatar: randAvatar({size: 50}),
     },
   };
 

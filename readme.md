@@ -16,7 +16,7 @@ It should look like this:
 
 3. Generate the fake payload
 
-`npm run generate` - that will run `node fake-data/run-script.js`
+`npm run generate` - that will run `node fake-data/run-script.js 100` (100 means it generates 100 entries. Modify this command to change the number.)
 
 It'll create a `fake-data/fake-payload.json` if it doesn't exist, or refresh it.
 
