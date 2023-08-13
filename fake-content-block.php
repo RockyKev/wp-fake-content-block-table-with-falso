@@ -17,3 +17,4 @@ function acf_blocks_json_register_blocks() {
 }
 
 add_action('init', 'acf_blocks_json_register_blocks');
+

@@ -3,6 +3,7 @@
 // https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/#wpdefinedasset
 
 return array(
+    'handle' => 'fake-content-block-js-asset',
     'dependencies' => array(
         'wp-blocks',
         'wp-element',

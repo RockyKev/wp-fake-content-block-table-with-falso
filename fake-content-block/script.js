@@ -17,4 +17,24 @@ async function getFakeData() {
 }
 
 // TODO: Set up conditional where it gets real data vs fake data
-getFakeData();
+//getFakeData();
+
+
+// const tableButton = document.querySelector('button #fillTable');
+const tableButton = document.querySelector('body');
+
+// tableButton.addEventListener("click", () => {
+
+//   // console
+//   console.log("fill data");
+
+
+//   // get the data
+//   const theData = getFakeData();
+
+//   console.log("theData?")
+//   console.log(theData)
+
+// })
+
+console.log(tableButton);
