@@ -6,7 +6,6 @@
     "title": "Fake Content Block",
     "description": "A fake content block.",
     "style": [ "file:../fake-content-block/style.css", "fake-content-block-style" ],
-    "viewScript": "file:../fake-content-block/script.js",    
     "category": "formatting",
     "icon": "admin-comments",
     "keywords": ["fake", "placeholder"],

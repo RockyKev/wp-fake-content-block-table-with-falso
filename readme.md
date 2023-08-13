@@ -43,4 +43,11 @@ That will build `src/style.css` to `fake-content-block/style.css`. It will look 
 
 
 
+## Block.json
+Had to remove this because i need it loaded in the footer.
 
+```
+{
+        "viewScript": "file:../fake-content-block/script.js",    
+}
+```

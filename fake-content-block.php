@@ -18,3 +18,13 @@ function acf_blocks_json_register_blocks() {
 
 add_action('init', 'acf_blocks_json_register_blocks');
 
+
+// TODO: Figure out how to add it to block.json but also load in the footer
+// enqueue it into the footer
+
+
+function custom_enqueue() {
+    wp_register_script('fake-content-block-script', plugin_dir_url( __FILE__ ) . 'fake-content-block/script.js', [], false, true);
+    wp_enqueue_script('fake-content-block-script');
+}
+add_action('wp_enqueue_scripts', 'custom_enqueue');
