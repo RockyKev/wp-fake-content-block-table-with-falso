@@ -6,7 +6,7 @@ function generateTable(payload, tbody) {
       return `<tr>
       <td class="whitespace-nowrap px-6 py-4"><img src="${key.chat.avatar}"></td>
       <td class="whitespace-nowrap px-6 py-4 font-medium">${key.company_id}</td>
-      <td class="whitespace-nowrap px-6 py-4">${key.fullname}</td>
+      <td class="whitespace-nowrap px-6 py-4">${key.fullname} (${key.chat.pronoun})</td>
       <td class="whitespace-nowrap px-6 py-4">${key.location}</td>
       <td class="whitespace-nowrap px-6 py-4">${key.role}</td>
       <td class="whitespace-nowrap px-6 py-4 flex items-center h-20 min-h-full">

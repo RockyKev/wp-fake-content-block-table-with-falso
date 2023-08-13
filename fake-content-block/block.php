@@ -32,9 +32,9 @@
             </thead>
             <tbody>
               <tr class="border-b">
-                <td class="whitespace-nowrap px-6 py-4"><img src="https://i.pravatar.cc/100"></td>
+                <td class="whitespace-nowrap px-6 py-4"><img src="https://i.pravatar.cc/50"></td>
                 <td class="whitespace-nowrap px-6 py-4 font-medium">1</td>
-                <td class="whitespace-nowrap px-6 py-4">Mark Otto</td>
+                <td class="whitespace-nowrap px-6 py-4">Mark Otto (He/him)</td>
                 <td class="whitespace-nowrap px-6 py-4">West Coast</td>
                 <td class="whitespace-nowrap px-6 py-4">Team Name</td>
 
